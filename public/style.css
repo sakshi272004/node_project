@@ -1,0 +1,97 @@
+/* General styles for the form container */
+
+.main {
+    padding: 30px;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #c3ca7b, #c7c7da); /* Gradient background */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 600px; /* Limit width for better readability */
+    margin: auto; /* Center align on the page */
+    overflow: hidden; /* Hide overflow for gradient effect */
+}
+
+.container{
+
+    width: 100%;
+    background-color: #5c5f15;
+}
+
+/* Heading style */
+.main h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #764776; /* Dark purple heading */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+/* Input and textarea styles */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    font-size: 18px;
+    padding: 14px;
+    margin-bottom: 16px; /* Space between inputs */
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent white background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+    outline: none;
+    background-color: #fff; /* White background on focus */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on focus */
+}
+
+/* Submit button style */
+input[type="submit"] {
+    width: 100%;
+    background-color: #764776; /* Dark purple button */
+    color: white;
+    padding: 16px;
+    margin-top: 20px; /* Space above the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+input[type="submit"]:hover {
+    background-color: #5e3b4a; /* Darken the button on hover */
+}
+
+/* Additional styling for links */
+a {
+    color: #764776; /* Dark purple link */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Custom checkbox style */
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: 2px solid #764776;
+    border-radius: 5px;
+    width: 16px;
+    height: 16px;
+    transition: background-color 0.3s ease;
+    position: relative;
+    top: 3px;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #764776;
+}
